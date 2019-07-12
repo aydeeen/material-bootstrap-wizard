@@ -1405,9 +1405,17 @@ fieldset[disabled] .checkbox, fieldset[disabled] .checkbox input[type=checkbox],
       }
     }
 
-    .bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
-      border-top-color: #ffff !important;
+    @media(min-width: 576px) and (max-width: 767px) {
+      .container {
+        max-width: 100%; 
+      }
     }
+
+    .bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
+      border-top-color: #ffff;
+    }
+
+
     
    
 
