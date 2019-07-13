@@ -1414,8 +1414,8 @@ fieldset[disabled] .checkbox, fieldset[disabled] .checkbox input[type=checkbox],
     .bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
       border-top-color: #ffff;
     }
-
-
-    
    
-
+    .tooltip {
+      transition: none;
+    }
+    
